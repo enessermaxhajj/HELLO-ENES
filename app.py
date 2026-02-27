@@ -1,2 +1,2 @@
 # app.py
-print("Hello Enes ti je ma i forti dhe osht e vertet!")
+print("Hello Eness ti je ma i forti dhe osht e vertett!")
