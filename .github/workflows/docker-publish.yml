@@ -24,7 +24,7 @@ jobs:
       # 3️⃣ Ndërto Docker image me tag latest dhe commit SHA
       - name: Build Docker image
         run: |
-          IMAGE_NAME=enessermaxhaj/hello-enes
+          IMAGE_NAME=enessermaxhaj/hello-eness
           TAG_LATEST=latest
           TAG_COMMIT=${{ github.sha }}
           docker build -t $IMAGE_NAME:$TAG_LATEST -t $IMAGE_NAME:$TAG_COMMIT .
@@ -32,7 +32,7 @@ jobs:
       # 4️⃣ Push image në Docker Hub
       - name: Push Docker image
         run: |
-          IMAGE_NAME=enessermaxhaj/hello-enes
+          IMAGE_NAME=enessermaxhaj/hello-eness
           TAG_LATEST=latest
           TAG_COMMIT=${{ github.sha }}
           docker push $IMAGE_NAME:$TAG_LATEST
